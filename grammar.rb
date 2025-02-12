@@ -78,3 +78,6 @@ puts Regexp.last_match.pre_match
 # puts Regexp.last_match(0)
 puts Regexp.last_match(0)
 puts Regexp.last_match.post_match
+puts $`
+puts $&
+puts $'
