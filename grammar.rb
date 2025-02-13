@@ -81,3 +81,9 @@ puts Regexp.last_match.post_match
 puts $`
 puts $&
 puts $'
+
+## 真偽地について
+puts
+puts '真偽値について'
+puts 'true' if true
+puts 'false' if !(false)
